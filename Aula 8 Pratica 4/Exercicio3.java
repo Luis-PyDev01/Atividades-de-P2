@@ -26,21 +26,4 @@ public class Exercicio3 {
                 System.out.println("Tipo de combustivel invalido");
             }
         }
-        else {
-            if (combustivel.equalsIgnoreCase("gasolina")){
-                double valor = quantidade * 6.00;
-                double desconto = valor * 0.03;
-                double valorFinal = valor - desconto;
-                System.out.println("Valor a pagar: " + valorFinal);
-            } else if (combustivel.equalsIgnoreCase("alcool")){
-                double valor = quantidade * 4.50;
-                double desconto = valor * 0.04;
-                double valorFinal = valor - desconto;
-                System.out.println("Valor a pagar: " + valorFinal);
-            } else {
-                System.out.println("Tipo de combustivel invalido");
-            }
-        }
-
-    }
-}
+      
